@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --color-dm-black: 29 29 27;
+  --color-dm-white: 255 255 255;
+  --color-dm-gray: 221 222 221;
+
+  --color-dm-red: 227 6 19;
+  --color-dm-blue: 49 39 131;
+  --color-dm-green: 0 150 64;
+  --color-dm-yellow: 255 237 0;
+  --color-dm-cyan: 0 159 227;
+  --color-dm-magenta: 230 0 126;
+
+  --font-display: "LostaMasta", "Poppins", "Outfit", system-ui, sans-serif;
+  --font-body: "Poppins", "Outfit", system-ui, sans-serif;
+}
+
+body {
+  background-color: rgb(var(--color-dm-white));
+  color: rgb(var(--color-dm-black));
+  font-family: var(--font-body);
+}
+
+@layer utilities {
+  .text-gradient-dm {
+    background: linear-gradient(to right, rgb(var(--color-dm-blue)), rgb(var(--color-dm-magenta)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
