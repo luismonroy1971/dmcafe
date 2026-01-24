@@ -51,11 +51,11 @@ export const Footer = () => {
                             className={`group relative rounded-2xl p-px bg-linear-to-br ${section.gradient} shadow-2xl shadow-black/20 hover:shadow-2xl hover:shadow-dm-red/10 transition-all duration-300 hover:-translate-y-0.5 h-full md:h-80`}
                         >
                             <div aria-hidden="true" className={`pointer-events-none absolute -inset-6 bg-linear-to-br ${section.gradient} blur-2xl opacity-25 group-hover:opacity-45 transition-opacity`} />
-                            <div className="relative rounded-[15px] bg-zinc-950/70 supports-backdrop-filter:bg-zinc-950/55 backdrop-blur-xl border border-white/10 p-5 overflow-hidden h-full flex flex-col">
+                            <div className="relative rounded-[15px] bg-zinc-950/70 supports-backdrop-filter:bg-zinc-950/55 backdrop-blur-xl border border-white/10 p-5 overflow-hidden h-full flex flex-col text-white">
                                 <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-linear-to-b from-white/10 via-transparent to-black/30 opacity-70" />
                                 <div className="relative flex items-start justify-between gap-4">
                                     <div className="min-w-0">
-                                        <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.22em] text-dm-gray/70">
+                                        <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.22em] text-white/80">
                                             <span className="inline-block w-1.5 h-1.5 rounded-full bg-dm-red/90 shadow-[0_0_0_4px_rgba(227,6,19,0.12)]" />
                                             {section.label}
                                         </div>
@@ -69,7 +69,7 @@ export const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="relative mt-3 text-sm text-dm-gray/70 leading-relaxed line-clamp-6">
+                                <p className="relative mt-3 text-sm text-white/75 leading-relaxed line-clamp-6">
                                     {section.description}
                                 </p>
                             </div>
@@ -78,10 +78,10 @@ export const Footer = () => {
                 </div>
 
                 <div className="mt-8 flex flex-col items-center gap-1 text-center">
-                    <p className="text-dm-gray/60 text-sm">
+                    <p className="text-white/70 text-sm">
                         &copy; {new Date().getFullYear()} Dulce Maná.
                     </p>
-                    <p className="text-dm-gray/45 text-xs">
+                    <p className="text-white/55 text-xs">
                         Diseñado para su deleite.
                     </p>
                 </div>
