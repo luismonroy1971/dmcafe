@@ -5,7 +5,7 @@ import { MapPin, ArrowUpRight } from 'lucide-react';
 
 export const Header = () => {
     const [isMapOpen, setIsMapOpen] = useState(false);
-    const mapsEmbedUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.3226934347663!2d-77.05690589999999!3d-11.952145599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d100552df89f%3A0x637207c098bbe555!2sDulce%20Man%C3%A1!5e0!3m2!1ses!2spe!4v1769290334269!5m2!1ses!2spe';
+    const mapsEmbedUrl = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3903.3360555459067!2d-77.06042!3d-11.951219000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDU3JzA0LjQiUyA3N8KwMDMnMzcuNSJX!5e0!3m2!1ses!2spe!4v1770320025374!5m2!1ses!2spe';
     const closeMap = () => setIsMapOpen(false);
     const MotionDiv = motion.div;
 
